@@ -1,0 +1,152 @@
+/* Ogólne ustawienia */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #0F0F0F;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+/* Nawigacja */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background: #1A1A1A;
+    border-bottom: 1px solid #333;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00FF88;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00FF88;
+}
+
+.button {
+    background: #00FF88;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #00CC66;
+}
+
+
+.button:hover {
+    background: #00CC66;
+}
+
+/* Hero sekcja */
+header .hero {
+    text-align: center;
+    padding: 100px 5%;
+    background: linear-gradient(to bottom, #1A1A1A, #0F0F0F);
+}
+
+header .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+header .hero .buttons .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header .hero .btn.primary {
+    background: #00FF88;
+    color: #000;
+}
+
+header .hero .btn.primary:hover {
+    background: #00CC66;
+}
+
+header .hero .btn.secondary {
+    background: #333;
+    color: #fff;
+}
+
+header .hero .btn.secondary:hover {
+    background: #444;
+}
+
+/* Sekcja funkcji */
+.features {
+    text-align: center;
+    padding: 50px 5%;
+    background: #1A1A1A;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.features .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.features .card {
+    background: #222;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #333;
+    transition: transform 0.3s;
+}
+
+.features .card:hover {
+    transform: scale(1.05);
+}
+
+.features .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #00FF88;
+}
+
+/* Stopka */
+<footer>
+    <p>&copy; 2024 CraftPL.pl | Wszystkie prawa zastrzeżone. <span class="copyright-author">by Owczaxxx</span></p>
+</footer>
